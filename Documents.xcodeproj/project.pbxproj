@@ -7,23 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1657E84D213843BA000099CC /* NewDocumentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1657E84C213843BA000099CC /* NewDocumentViewController.swift */; };
 		165B2F5E21360BEE00B5B7E9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 165B2F5D21360BEE00B5B7E9 /* AppDelegate.swift */; };
-		165B2F6021360BEE00B5B7E9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 165B2F5F21360BEE00B5B7E9 /* ViewController.swift */; };
 		165B2F6321360BEE00B5B7E9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 165B2F6121360BEE00B5B7E9 /* Main.storyboard */; };
 		165B2F6621360BEE00B5B7E9 /* Documents.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 165B2F6421360BEE00B5B7E9 /* Documents.xcdatamodeld */; };
 		165B2F6821360BF000B5B7E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 165B2F6721360BF000B5B7E9 /* Assets.xcassets */; };
 		165B2F6B21360BF000B5B7E9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 165B2F6921360BF000B5B7E9 /* LaunchScreen.storyboard */; };
+		165B2F7321360C7400B5B7E9 /* DocumentsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 165B2F7221360C7400B5B7E9 /* DocumentsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1657E84C213843BA000099CC /* NewDocumentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewDocumentViewController.swift; sourceTree = "<group>"; };
 		165B2F5A21360BEE00B5B7E9 /* Documents.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Documents.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		165B2F5D21360BEE00B5B7E9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		165B2F5F21360BEE00B5B7E9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		165B2F6221360BEE00B5B7E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		165B2F6521360BEE00B5B7E9 /* Documents.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Documents.xcdatamodel; sourceTree = "<group>"; };
 		165B2F6721360BF000B5B7E9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		165B2F6A21360BF000B5B7E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		165B2F6C21360BF000B5B7E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		165B2F7221360C7400B5B7E9 /* DocumentsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,10 +59,11 @@
 			isa = PBXGroup;
 			children = (
 				165B2F5D21360BEE00B5B7E9 /* AppDelegate.swift */,
-				165B2F5F21360BEE00B5B7E9 /* ViewController.swift */,
 				165B2F6121360BEE00B5B7E9 /* Main.storyboard */,
 				165B2F6721360BF000B5B7E9 /* Assets.xcassets */,
+				1657E84C213843BA000099CC /* NewDocumentViewController.swift */,
 				165B2F6921360BF000B5B7E9 /* LaunchScreen.storyboard */,
+				165B2F7221360C7400B5B7E9 /* DocumentsViewController.swift */,
 				165B2F6C21360BF000B5B7E9 /* Info.plist */,
 				165B2F6421360BEE00B5B7E9 /* Documents.xcdatamodeld */,
 			);
@@ -138,8 +141,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				165B2F6021360BEE00B5B7E9 /* ViewController.swift in Sources */,
+				165B2F7321360C7400B5B7E9 /* DocumentsViewController.swift in Sources */,
 				165B2F6621360BEE00B5B7E9 /* Documents.xcdatamodeld in Sources */,
+				1657E84D213843BA000099CC /* NewDocumentViewController.swift in Sources */,
 				165B2F5E21360BEE00B5B7E9 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
