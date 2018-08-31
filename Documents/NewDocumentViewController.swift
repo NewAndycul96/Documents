@@ -10,9 +10,21 @@ import UIKit
 
 class NewDocumentViewController: UIViewController {
 
+    @IBOutlet weak var nameTextField: UITextField!
+    @IBOutlet weak var documentsTextView: UITextView!
+    
+    var document: Document?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        if let document = document {
+            documentsTextView.text = document.content
+            nameTextField.text = document.title
+            
+            title = document.title
+        } else {
+            title = ""
+        }
         // Do any additional setup after loading the view.
     }
 
@@ -21,15 +33,9 @@ class NewDocumentViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
+    @IBAction func save(_ sender: Any) {
+        guard nameTextField.text != nil else{
+            return
+        }
     }
-    */
-
 }

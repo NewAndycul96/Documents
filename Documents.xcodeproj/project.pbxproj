@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		1657E84D213843BA000099CC /* NewDocumentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1657E84C213843BA000099CC /* NewDocumentViewController.swift */; };
+		1657E85121398D00000099CC /* DocumentsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1657E85021398D00000099CC /* DocumentsTableViewCell.swift */; };
+		1657E85321398F1D000099CC /* Documents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1657E85221398F1D000099CC /* Documents.swift */; };
 		165B2F5E21360BEE00B5B7E9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 165B2F5D21360BEE00B5B7E9 /* AppDelegate.swift */; };
 		165B2F6321360BEE00B5B7E9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 165B2F6121360BEE00B5B7E9 /* Main.storyboard */; };
 		165B2F6621360BEE00B5B7E9 /* Documents.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 165B2F6421360BEE00B5B7E9 /* Documents.xcdatamodeld */; };
@@ -18,6 +20,8 @@
 
 /* Begin PBXFileReference section */
 		1657E84C213843BA000099CC /* NewDocumentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewDocumentViewController.swift; sourceTree = "<group>"; };
+		1657E85021398D00000099CC /* DocumentsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentsTableViewCell.swift; sourceTree = "<group>"; };
+		1657E85221398F1D000099CC /* Documents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Documents.swift; sourceTree = "<group>"; };
 		165B2F5A21360BEE00B5B7E9 /* Documents.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Documents.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		165B2F5D21360BEE00B5B7E9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		165B2F6221360BEE00B5B7E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -58,12 +62,14 @@
 		165B2F5C21360BEE00B5B7E9 /* Documents */ = {
 			isa = PBXGroup;
 			children = (
-				165B2F5D21360BEE00B5B7E9 /* AppDelegate.swift */,
 				165B2F6121360BEE00B5B7E9 /* Main.storyboard */,
-				165B2F6721360BF000B5B7E9 /* Assets.xcassets */,
-				1657E84C213843BA000099CC /* NewDocumentViewController.swift */,
-				165B2F6921360BF000B5B7E9 /* LaunchScreen.storyboard */,
+				165B2F5D21360BEE00B5B7E9 /* AppDelegate.swift */,
+				1657E85021398D00000099CC /* DocumentsTableViewCell.swift */,
 				165B2F7221360C7400B5B7E9 /* DocumentsViewController.swift */,
+				1657E84C213843BA000099CC /* NewDocumentViewController.swift */,
+				1657E85221398F1D000099CC /* Documents.swift */,
+				165B2F6921360BF000B5B7E9 /* LaunchScreen.storyboard */,
+				165B2F6721360BF000B5B7E9 /* Assets.xcassets */,
 				165B2F6C21360BF000B5B7E9 /* Info.plist */,
 				165B2F6421360BEE00B5B7E9 /* Documents.xcdatamodeld */,
 			);
@@ -142,8 +148,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				165B2F7321360C7400B5B7E9 /* DocumentsViewController.swift in Sources */,
+				1657E85121398D00000099CC /* DocumentsTableViewCell.swift in Sources */,
 				165B2F6621360BEE00B5B7E9 /* Documents.xcdatamodeld in Sources */,
 				1657E84D213843BA000099CC /* NewDocumentViewController.swift in Sources */,
+				1657E85321398F1D000099CC /* Documents.swift in Sources */,
 				165B2F5E21360BEE00B5B7E9 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
